@@ -71,10 +71,10 @@
 
 .social__item {
   margin-right: 10px;
-}
 
-.social__item:last-child {
-  margin-right: 0px;
+  &:last-child {
+    margin-right: 0px;
+  }
 }
 
 .social__link {
@@ -89,10 +89,10 @@
 
   transition-property: fill, background-color;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.social__link:hover,
-.social__link:focus {
-  fill: $text-white;
-  background-color: $blue;
+  &:hover,
+  &:focus {
+    fill: $text-white;
+    background-color: $blue;
+  }
 }
